@@ -27,5 +27,3 @@ end
 adele = Artist.new("Adele")
 adele.add_song_by_name("Rolling In The Deep")
 puts adele.song_count
-
-binding.pry
