@@ -1,3 +1,4 @@
+require "pry"
 class Artist
   attr_accessor :name, :songs
   @@all = []
@@ -21,5 +22,6 @@ class Artist
     count = 0
     @@all.each {|artist| count += artist.songs.length}
     count
+    binding.pry
   end
 end
