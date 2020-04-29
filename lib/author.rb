@@ -7,8 +7,8 @@ class Author
     @@all.push(self)
   end
 
-  def add_post_by_name(name)
-    add_post(Post.new(name, self))
+  def add_post_by_title(title)
+    add_post(Post.new(title, self))
   end
 
   def add_post(post)
